@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	{% if links %}
+		{% include "tpl/rest/_links.xml" with {'links': links} %}
+	{% endif %}
+	{% if messages %}
+		{% include "tpl/rest/_messages.xml" with {'messages': messages} %}
+	{% endif %}
+	{% block body %}{% endblock %}	
+</root>

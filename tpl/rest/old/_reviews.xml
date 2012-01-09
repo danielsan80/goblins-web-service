@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<reviews>
+	 	{% for i, r in reviews %}
+	 		<review id="{{r.id}}" title="{{r.title}}" >
+				{% for key, value in r %}
+					{% if cdata[key] %}
+						<{{key}}><![CDATA[{{value}}]]></{{key}}>
+					{% elseif arrays[key] %}
+						<{{key}} type="array">
+							{% for i, v in value %}
+								<item>{{v}}</item>
+							{% endfor %} 			
+						</{{key}}>					
+					{% else %}
+						<{{key}}>{{value}}</{{key}}>
+					{% endif %}
+				{% endfor %} 			
+	 		</review>
+	 	{% else %}
+		 	<noresult>There are no reviews for this query OR this query is wrong</noresult>
+	 	{% endfor %}
+	</reviews>
+</root>

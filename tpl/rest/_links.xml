@@ -1,0 +1,5 @@
+<links>
+	{% for link in links %}
+		{% include "tpl/rest/_link.xml" with {'link': link} %}
+	{% endfor %}
+</links>

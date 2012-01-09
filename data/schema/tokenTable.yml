@@ -1,0 +1,21 @@
+Token:
+  tableName: tokens
+  actAs: [Timestampable]
+  columns:
+    token:
+      type: string(255)
+      primary: true
+    enabled:
+      type: boolean
+      default: true
+      notnull: true
+    username: string(255)
+  indexes:
+    username_index:
+      fields:
+        username:
+          sorting: ASC
+          length: 10
+          primary: true
+
+          

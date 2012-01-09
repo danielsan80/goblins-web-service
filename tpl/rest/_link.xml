@@ -1,0 +1,15 @@
+{% if link.keys %}
+	<link href="{{ link.href }}" rel="{{link.rel}}" >
+			<keys>
+				{% for j,key in link.keys %}
+					<key name="{{ j }}" type="{{ key.type }}" >
+						{% for k,value in key.values %}
+							<value>{{ value }}</value>
+						{% endfor %}
+					</key>
+				{% endfor %}
+			</keys>
+	</link>
+{% else %}
+	<link href="{{ link.href }}" rel="{{link.rel}}" />
+{% endif %}

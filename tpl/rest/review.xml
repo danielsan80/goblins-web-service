@@ -1,0 +1,21 @@
+{% extends "tpl/rest/generic.xml" %}
+{% block body %}
+	{% set cdata = ['slack','contenuto','pro','contro','text'] %}
+	{% set arrays = ['slack','meccaniche','tipo'] %}
+
+	<review id="{{review.id}}" title="{{review.title}}" >
+		{% for key, value in review %}
+			{% if key in cdata %}
+				<{{key}}><![CDATA[{{value}}]]></{{key}}>
+			{% elseif key in arrays %}
+				<{{key}} type="array">
+					{% for i, v in value %}
+						<item>{{v}}</item>
+					{% endfor %} 			
+				</{{key}}>					
+			{% else %}
+				<{{key}}>{{value}}</{{key}}>
+			{% endif %}
+		{% endfor %} 			
+	</review>
+{% endblock %}

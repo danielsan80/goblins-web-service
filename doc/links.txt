@@ -1,0 +1,45 @@
+/
+  links
+    caseNoToken
+      /
+        querystring
+          [token: string]
+      /
+        headers
+          [x-token: string]
+    caseTokenOk      
+      /reviews
+        querystring
+          [token:  string]
+          filter: "letter"
+            letter: string(1)            
+          filter: "keyword"
+            keyword: string
+          [format: "xml"|"php"|"json"|"yml"]
+          [lang: "it"|"en"]
+          [sort: "asc"|"desc"]
+        headers
+          [x-token: string]
+          [Accept: "application-xml"|"application-php"|"application-json"|"application-yml"]
+          [Accept-language: "it"|"en"]
+        
+            
+          
+        
+      /downloads
+
+/reviews
+  links
+    link
+              
+
+
+
+
+links
+  link
+    uri: /reviews
+    querystring
+      token: 1234567890|string
+      filter: letter
+        

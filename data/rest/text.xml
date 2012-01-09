@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<state id="noToken">
+		<text id="message">
+			Token di autenticazione non fornito
+		</text>
+		<text id="description">
+			Per accedere a questo servizio è necessario aggiungere in querystring un token di autenticazione.
+			Ne esiste uno pubblico che può essere utilizzato al fine di visionare il servizio ed in fase di realizzazione
+			delle vostre applicazioni.
+			Il token pubblico verrà alterato e disabilitato a nostra discrezione, pertanto non potrà essere utilizzato
+			in applicazioni operative.
+			Potrete reperire un token privato dalla pagina del vostro profilo goblin. Tale token potrà essere utilizzato
+			nelle vostre applicazioni operative e verrà disabilitato solo in caso di abuso nell'utilizzo di questo servizio.	
+		</text>
+	</state>
+	<state id="wrongToken">
+		<text id="message">
+			Il token di autenticazione fornito non è valido
+		</text>
+		<text id="description">
+			E' possibile utilizzare il token pubblico per l'esplorazione e la comprensione del servizio e per la sua sperimentazione. Il proprio token privato sarà disponibile nel proprio profilo sul sito www.goblins.net
+		</text>
+	</state>
+	<state id="root">
+		<text id="message">
+			Sommario
+		</text>
+		<text id="description">
+			Attualmente è possibile reperire le nostre recensioni (circa 4000). Ricorda che una buona applicazione utilizza il
+			sistema del protocollo HTTP per il caching.	
+		</text>
+	</state>
+	<state id="reviews_noFilter">
+		<text id="message">
+			Il filtro non è impostato
+		</text>
+		<text id="description">
+			Non è stato impostato alcun filtro. Non è possibile restituire tutte le recensioni.
+		</text>
+	</state>
+	<state id="reviews_wrongFilter">
+		<text id="message">
+			Il filtro impostato non è previsto
+		</text>
+		<text id="description">
+			Il filtro di ricerca che hai impostato in GET non è stato riconosciuto dal sistema.
+		</text>
+	</state>
+	<state id="reviews_wrongParams">
+		<text id="message">
+			Parametri non corretti
+		</text>
+		<text id="description">
+			I parametri per questo filtro non sono corretti.
+		</text>
+	</state>
+	<state id="reviews_filterBy">
+		<text id="message">
+			Elenco Recensioni
+		</text>
+		<text id="description">
+			Elenco delle recensioni corrispondenti ai parametri impostati
+		</text>
+	</state>
+	<state id="reviews_view">
+		<text id="message">
+			Dettaglio Recensione
+		</text>
+		<text id="description">
+			Dettaglio della recensione corrente
+		</text>
+	</state>
+	<state id="review_notFound">
+		<text id="message">
+			Recensione inesistente
+		</text>
+		<text id="description">
+			Non esiste alcuna recensione corrispondente a questo ID
+		</text>
+	</state>
+</root>

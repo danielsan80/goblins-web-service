@@ -1,0 +1,8 @@
+<messages>
+	{% for message in messages %}
+		<{{message.type}} {% if code %}code="{{message.code}}" {%endif%}>
+			<message>{{message.message}}</message>
+			<description>{{message.description}}</description>
+		</{{message.type}}>
+	{% endfor %}
+</messages>

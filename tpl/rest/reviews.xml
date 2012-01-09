@@ -1,0 +1,29 @@
+{% extends "tpl/rest/generic.xml" %}
+{% block body %}
+	{% set cdata = ['slack','contenuto','pro','contro','text'] %}
+	{% set arrays = ['slack','meccaniche','tipo'] %}
+	<reviews>
+	 	{% for i, r in reviews %}
+
+			<review id="{{r.id}}" title="{{r.title}}" >			
+				{% for key, value in r %}
+					{% if key == 'link' %}
+						{% include "tpl/rest/_link.xml" with {'link': value} %}
+					{% elseif key in cdata %}
+						<{{key}}><![CDATA[{{value}}]]></{{key}}>
+					{% elseif key in arrays %}
+						<{{key}} type="array">
+							{% for i, v in value %}
+								<item>{{v}}</item>
+							{% endfor %} 			
+						</{{key}}>					
+					{% else %}
+						<{{key}}>{{value}}</{{key}}>
+					{% endif %}
+				{% endfor %} 			
+			</review>
+	 	{% else %}
+		 	<noresult>There are no reviews for this query OR this query is wrong</noresult>
+	 	{% endfor %}
+	</reviews>
+{% endblock %}

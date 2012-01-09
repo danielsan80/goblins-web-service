@@ -1,0 +1,9 @@
+- Aggiungere il concetto di header alla classe Link
+- Abilitare il Resolver ad accettare gli headers
+- Provare il Client
+- Aggiornare Tonic
+
+- Aggiungere download e links nella scheda della review
+
+- Refactoring degli stati:
+  embed  in metodi i getMsg, getLinks,enbeanReviews

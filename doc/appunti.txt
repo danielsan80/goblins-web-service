@@ -1,0 +1,14 @@
+
+- La Risorsa si occupa di gestire la richiesta http, la gestione dell'etag e delega ad uno Stato la creazione del Body.
+Delega poi al Formatter di convertire il Body nel formato richiesto. Gestisce gli headers (solo il Content-type, credo) 
+
+- Il Formatter gestisce la conversione del body di uno stato nei vari formati supportati in base
+a quanto richiesto dalla Risorsa
+
+- Lo Stato crea un body ed un codice (corrispondente poi a quello http) oppure delega questa responsabilità a Sottostati
+o Stati comuni
+
+- Nel body restituito dallo Stato c'è la tplKey che può essere utilizzata per selezionare in maniera univoca
+un template da applicare al body
+
+- La classe View va decorata, estesa con la possibilità di richiamare i template per chiave oltre che per nome file.

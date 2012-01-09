@@ -1,0 +1,385 @@
+generi:
+  -
+    it: ''
+    en: ''
+  -
+    it: 'Giochi da tavolo'
+    en: Boardgames
+  -
+    it: 'Giochi di carte'
+    en: 'Card games'
+  -
+    it: 'Giochi di dadi'
+    en: 'Dice games'
+  -
+    it: 'Giochi di miniature'
+    en: 'Miniature/3D games'
+  -
+    it: 'Giochi di narrazione'
+    en: 'Storytelling games'
+  -
+    it: 'Giochi di ruolo'
+    en: 'Roleplaying games'
+  -
+    it: 'Giochi vari di altro tipo'
+    en: 'Unlisted: other games'
+  -
+    it: 'Varie: accessori'
+    en: 'Xtra: Accessories'
+  -
+    it: 'Party game'
+    en: 'Party games'
+  -
+    it: 'Giochi di scacchiera'
+    en: 'Chessboard games'
+  -
+    it: 'Giochi di parole'
+    en: 'Word games'
+ambientazioni:
+  -
+    it: ''
+    en: ''
+  -
+    it: Antichit&agrave;
+    en: 'Ancient history'
+  -
+    it: Astratto
+    en: Abstract
+  -
+    it: Fantascienza
+    en: 'Science fiction'
+  -
+    it: Fantasy
+    en: Fantasy
+  -
+    it: 'Far West'
+    en: 'Far West'
+  -
+    it: Horror
+    en: Horror
+  -
+    it: 'Medio evo'
+    en: 'Middle Age'
+  -
+    it: Mitologia
+    en: Mythology
+  -
+    it: Moderno
+    en: 'Modern age'
+  -
+    it: Napoleonico
+    en: Napoleonic
+  -
+    it: Pirati
+    en: Pirates
+  -
+    it: Preistoria
+    en: Prehistoric
+  -
+    it: Rinascimento
+    en: Renaissance
+  -
+    it: 'Storia recente'
+    en: 'Recent history'
+  -
+    it: Cinema/Teatro
+    en: Cinema/Theatre
+  -
+    it: Letteratura
+    en: Literature
+  -
+    it: 'Epoche storiche'
+    en: 'Historical ages'
+  -
+    it: Natura
+    en: Nature
+  -
+    it: Viodeogioco
+    en: Videogame
+meccaniche:
+  -
+    it: ''
+    en: ''
+  -
+    it: Abilit&agrave;/Destrezza
+    en: Ability/Dexterity
+  -
+    it: Aste
+    en: Auctions
+  -
+    it: Bluff
+    en: Bluff
+  -
+    it: Commercio/Scambi
+    en: Commerce/Trade
+  -
+    it: Cooperazione
+    en: Cooperative
+  -
+    it: Deduzione
+    en: Deduction
+  -
+    it: 'Gestione risorse'
+    en: 'Resource manage'
+  -
+    it: Memoria
+    en: Memory
+  -
+    it: Piazzamento
+    en: Positioning
+  -
+    it: Puzzle
+    en: Puzzle
+  -
+    it: 'Scelta simultanea'
+    en: 'Simultaneous choice'
+  -
+    it: 'Sistema D20'
+    en: 'D20 System'
+  -
+    it: Scommesse
+    en: Betting/Wagering
+  -
+    it: Simulazione
+    en: Simulation
+  -
+    it: Votazioni
+    en: Voting
+  -
+    it: Wargame
+    en: Wargame
+  -
+    it: 'Pesca e gioca'
+    en: 'Draw and play'
+  -
+    it: Eliminazione
+    en: Elimination
+  -
+    it: 'Scopri tessere'
+    en: 'Reveal tiles'
+  -
+    it: Domino
+    en: Domino
+  -
+    it: 'Controllo territorio'
+    en: 'Territory control'
+  -
+    it: 'Scelte multiple'
+    en: 'Multiple choices'
+  -
+    it: 'Collezione oggetti'
+    en: 'Collect items'
+  -
+    it: 'Sistema Click'
+    en: 'Click system'
+  -
+    it: 'Gioco delle pulci'
+    en: Tiddleywinks
+  -
+    it: Pastelli
+    en: Crayons
+  -
+    it: 'Mappa modulare'
+    en: 'Modular Board'
+  -
+    it: 'Sistema a Dischi'
+    en: 'Disk system'
+  -
+    it: 'Tira e muovi'
+    en: 'Roll and move'
+  -
+    it: Educativo
+    en: Educational
+  -
+    it: 'Party Game'
+    en: 'Party Game'
+  -
+    it: 'Tempo Reale'
+    en: 'Real Time'
+  -
+    it: Quiz
+    en: Quiz
+  -
+    it: 'Gioco per bambini'
+    en: 'Kids game'
+  -
+    it: 'Sistema a blocchi'
+    en: 'Block system'
+  -
+    it: 'Card driven'
+    en: 'Card driven'
+  -
+    it: 'Sistema a impulsi'
+    en: 'Pulse system'
+  -
+    it: 'Costruzione rete'
+    en: 'Net building'
+tipi:
+  -
+    it: ''
+    en: ''
+  -
+    it: Aerei
+    en: Airplanes
+  -
+    it: Ambiente
+    en: Environment
+  -
+    it: Animali
+    en: Animals
+  -
+    it: Astronavi
+    en: Starships
+  -
+    it: Automobili
+    en: Cars
+  -
+    it: Avventura
+    en: Adventure
+  -
+    it: Bighe
+    en: Chariots
+  -
+    it: Cavalli
+    en: Horses
+  -
+    it: Civilt&agrave;
+    en: Civilizations
+  -
+    it: Combattimento
+    en: Combat/Fight
+  -
+    it: Computer/Internet
+    en: Computer/Internet
+  -
+    it: Corse
+    en: Races
+  -
+    it: Diplomazia/Intrighi
+    en: Diplomacy/Intrigue
+  -
+    it: Dungeon/Labirinti
+    en: Dungeons/Mazes
+  -
+    it: Economia/Finanza
+    en: Economic/Financial
+  -
+    it: Esplorazione
+    en: Exploration
+  -
+    it: Fumetti/Umorismo
+    en: Humour/Comics
+  -
+    it: Guerra
+    en: War
+  -
+    it: 'Guerra mondiale I/II'
+    en: 'World War (I/II)'
+  -
+    it: Industria
+    en: Industrial
+  -
+    it: Magia/Alchimia
+    en: Magic/Alchemy
+  -
+    it: Mistero/Assassinio
+    en: Mistery/Murder
+  -
+    it: Navale
+    en: Nautical
+  -
+    it: Palazzi/Edifici
+    en: Buildings
+  -
+    it: Politica
+    en: Political
+  -
+    it: Robot
+    en: Robots
+  -
+    it: Ladri/Spie
+    en: Thieves/Spies
+  -
+    it: Sport
+    en: Sports
+  -
+    it: Treni
+    en: Trains
+  -
+    it: Viaggi
+    en: Travels
+  -
+    it: 'Mostri/Non morti'
+    en: Monsters/Undeads
+  -
+    it: 'Vita comune/Hobby'
+    en: 'Common life/Hobby'
+  -
+    it: 'Viaggi nel tempo'
+    en: 'Time travels'
+  -
+    it: Evoluzione
+    en: Evolution
+  -
+    it: Insediamenti
+    en: Settlements
+  -
+    it: Influenza/Fama
+    en: Influence/Fame
+  -
+    it: Trasporti
+    en: Transports
+  -
+    it: Fiabe/Racconti
+    en: Fables/Tales
+  -
+    it: Piantagioni
+    en: Plantations
+  -
+    it: Mare
+    en: Sea
+  -
+    it: Religione
+    en: Religion
+  -
+    it: Musica
+    en: Music
+  -
+    it: 'Film/Serie TV'
+    en: 'Movie/TV Serials'
+gradidifficolta:
+  -
+    it: ''
+    en: ''
+  -
+    it: 'Immediato (chiunque)'
+    en: 'Trivial (everyone)'
+  -
+    it: 'Semplice (giocatori occasionali)'
+    en: 'Easy (occasional players)'
+  -
+    it: 'Medio (maggioranza dei giocatori)'
+    en: 'Average (most players)'
+  -
+    it: 'Impegnativo (giocatori assidui)'
+    eng: 'Challenging (assiduous players)'
+  -
+    it: 'Complesso (giocatori esperti)'
+  enng: 'Hard (expert players)'
+collezionabilita:
+  -
+    it: ''
+    en: ''
+  -
+    it: Collezionabile
+    en: Collectible
+espandibilita:
+  -
+    it: 'Gioco completo o base'
+    en: 'Complete or base game'
+  -
+    it: Espansione
+    en: Expansion
+  -
+    it: 'Espansione e gioco completo'
+    en: 'Expansion and complete game'
